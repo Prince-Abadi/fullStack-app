@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 const connectDB = require('./config/db');
 
 // Load Config
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: '.env' });
 
 connectDB();
 
